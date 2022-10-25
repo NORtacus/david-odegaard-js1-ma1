@@ -59,4 +59,8 @@ const cats = [
 function list (cats);
 console.log(cats.name);
 
+cats.forEach(function(item) {
+    console.log("Name of the cat" + ": " + item.name);
+});
+
 //Question 8
