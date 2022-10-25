@@ -63,4 +63,16 @@ cats.forEach(function(item) {
     console.log("Name of the cat" + ": " + item.name);
 });
 
+/*for(let i = 0; i < cats.name.length; i++) {
+    console.log(cats.name[i]);
+} why does this not work?*/
+
 //Question 8
+
+function createCats(cats) {
+    
+    for(let i = 0; i < cats.length; i++)
+}
+const newHTML = createCats(cats);
+const catContainer = document.querySelector(".cat-container");
+catContainer.innerHTML = newHTML;
